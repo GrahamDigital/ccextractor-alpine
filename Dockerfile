@@ -1,4 +1,4 @@
-FROM python:python3.7-alpine3.8
+FROM python:3.7-alpine3.8
 LABEL maintainer="adam@grahamdigital.com"
 
 RUN apk update; \
